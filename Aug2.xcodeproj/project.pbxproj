@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		393F2FDD149FCB9000B47DEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 393F2FDC149FCB9000B47DEF /* UIKit.framework */; };
+		393F2FDF149FCB9000B47DEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 393F2FDE149FCB9000B47DEF /* Foundation.framework */; };
+		393F2FE1149FCB9000B47DEF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 393F2FE0149FCB9000B47DEF /* CoreGraphics.framework */; };
+		393F2FE7149FCB9000B47DEF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 393F2FE5149FCB9000B47DEF /* InfoPlist.strings */; };
+		393F2FE9149FCB9000B47DEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 393F2FE8149FCB9000B47DEF /* main.m */; };
+		393F2FED149FCB9000B47DEF /* HTMLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 393F2FEC149FCB9000B47DEF /* HTMLAppDelegate.m */; };
+		393F2FF5149FCC3500B47DEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 393F2FF4149FCC3500B47DEF /* ViewController.m */; };
+		393F301F149FD2FF00B47DEF /* preview.html in Resources */ = {isa = PBXBuildFile; fileRef = 393F301E149FD2FF00B47DEF /* preview.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		393F2FD8149FCB9000B47DEF /* Aug2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aug2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		393F2FDC149FCB9000B47DEF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		393F2FDE149FCB9000B47DEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		393F2FE0149FCB9000B47DEF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		393F2FE4149FCB9000B47DEF /* Aug2-Info.plist */ = {isa = PBXFileReference; path = "Aug2-Info.plist"; sourceTree = "<group>"; };
+		393F2FE6149FCB9000B47DEF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		393F2FE8149FCB9000B47DEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		393F2FEA149FCB9000B47DEF /* Aug2-Prefix.pch */ = {isa = PBXFileReference; path = "Aug2-Prefix.pch"; sourceTree = "<group>"; };
+		393F2FEB149FCB9000B47DEF /* HTMLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTMLAppDelegate.h; sourceTree = "<group>"; };
+		393F2FEC149FCB9000B47DEF /* HTMLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMLAppDelegate.m; sourceTree = "<group>"; };
+		393F2FF3149FCC3500B47DEF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		393F2FF4149FCC3500B47DEF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		393F301E149FD2FF00B47DEF /* preview.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = preview.html; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		393F2FD5149FCB9000B47DEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				393F2FDD149FCB9000B47DEF /* UIKit.framework in Frameworks */,
+				393F2FDF149FCB9000B47DEF /* Foundation.framework in Frameworks */,
+				393F2FE1149FCB9000B47DEF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		393F2FCD149FCB9000B47DEF = {
+			isa = PBXGroup;
+			children = (
+				393F2FE2149FCB9000B47DEF /* Aug2 */,
+				393F2FDB149FCB9000B47DEF /* Frameworks */,
+				393F2FD9149FCB9000B47DEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		393F2FD9149FCB9000B47DEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				393F2FD8149FCB9000B47DEF /* Aug2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		393F2FDB149FCB9000B47DEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				393F2FDC149FCB9000B47DEF /* UIKit.framework */,
+				393F2FDE149FCB9000B47DEF /* Foundation.framework */,
+				393F2FE0149FCB9000B47DEF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		393F2FE2149FCB9000B47DEF /* Aug2 */ = {
+			isa = PBXGroup;
+			children = (
+				393F2FEB149FCB9000B47DEF /* HTMLAppDelegate.h */,
+				393F2FEC149FCB9000B47DEF /* HTMLAppDelegate.m */,
+				393F2FF3149FCC3500B47DEF /* ViewController.h */,
+				393F2FF4149FCC3500B47DEF /* ViewController.m */,
+				393F2FE3149FCB9000B47DEF /* Supporting Files */,
+			);
+			name = Aug2;
+			path = HTML;
+			sourceTree = "<group>";
+		};
+		393F2FE3149FCB9000B47DEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				393F301E149FD2FF00B47DEF /* preview.html */,
+				393F2FE4149FCB9000B47DEF /* Aug2-Info.plist */,
+				393F2FE5149FCB9000B47DEF /* InfoPlist.strings */,
+				393F2FE8149FCB9000B47DEF /* main.m */,
+				393F2FEA149FCB9000B47DEF /* Aug2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		393F2FD7149FCB9000B47DEF /* Aug2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 393F2FF0149FCB9000B47DEF /* Build configuration list for PBXNativeTarget "Aug2" */;
+			buildPhases = (
+				393F2FD4149FCB9000B47DEF /* Sources */,
+				393F2FD5149FCB9000B47DEF /* Frameworks */,
+				393F2FD6149FCB9000B47DEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aug2;
+			productName = HTML;
+			productReference = 393F2FD8149FCB9000B47DEF /* Aug2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		393F2FCF149FCB9000B47DEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 393F2FD2149FCB9000B47DEF /* Build configuration list for PBXProject "Aug2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 393F2FCD149FCB9000B47DEF;
+			productRefGroup = 393F2FD9149FCB9000B47DEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				393F2FD7149FCB9000B47DEF /* Aug2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		393F2FD6149FCB9000B47DEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				393F2FE7149FCB9000B47DEF /* InfoPlist.strings in Resources */,
+				393F301F149FD2FF00B47DEF /* preview.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		393F2FD4149FCB9000B47DEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				393F2FE9149FCB9000B47DEF /* main.m in Sources */,
+				393F2FED149FCB9000B47DEF /* HTMLAppDelegate.m in Sources */,
+				393F2FF5149FCC3500B47DEF /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		393F2FE5149FCB9000B47DEF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				393F2FE6149FCB9000B47DEF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		393F2FEE149FCB9000B47DEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		393F2FEF149FCB9000B47DEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		393F2FF1149FCB9000B47DEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HTML/Aug2-Prefix.pch";
+				INFOPLIST_FILE = "HTML/Aug2-Info.plist";
+				PRODUCT_NAME = Aug2;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		393F2FF2149FCB9000B47DEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HTML/Aug2-Prefix.pch";
+				INFOPLIST_FILE = "HTML/Aug2-Info.plist";
+				PRODUCT_NAME = Aug2;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		393F2FD2149FCB9000B47DEF /* Build configuration list for PBXProject "Aug2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				393F2FEE149FCB9000B47DEF /* Debug */,
+				393F2FEF149FCB9000B47DEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		393F2FF0149FCB9000B47DEF /* Build configuration list for PBXNativeTarget "Aug2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				393F2FF1149FCB9000B47DEF /* Debug */,
+				393F2FF2149FCB9000B47DEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 393F2FCF149FCB9000B47DEF /* Project object */;
+}
